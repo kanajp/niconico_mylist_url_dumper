@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "niconico_mylist_url_dumper",
+  "short_name": "mylistDumper",
+  "version": "0.0.1",
+  "description": "ニコニコ動画のマイリストページから動画のURLのみを抽出し、テキスト形式で出力します。",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.nicovideo.jp/my/mylist*"],
+      "js": ["js/jquery-3.2.1.min.js", "js/main.js"]
+    }
+  ]
+}
