@@ -1,5 +1,5 @@
 $(function(){
-    var prefix = '>play '
+    var prefix = ''
     var movie_url = [];
 
     // URLを取得
