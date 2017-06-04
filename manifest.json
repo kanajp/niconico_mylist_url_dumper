@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "niconico_mylist_url_dumper",
   "short_name": "mylistDumper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "ニコニコ動画のマイリストページから動画のURLのみを抽出し、テキスト形式で出力します。",
 
   "content_scripts": [
