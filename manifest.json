@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["http://www.nicovideo.jp/my/mylist*"],
+      "matches": ["http://www.nicovideo.jp/my/mylist*", "http://www.nicovideo.jp/mylist*"],
       "js": ["js/jquery-3.2.1.min.js", "js/main.js"]
     }
   ]
